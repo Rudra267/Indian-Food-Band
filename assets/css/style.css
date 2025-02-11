@@ -10018,3 +10018,7 @@ padding: 15px 20px !important;
       font-size: 14px; /* Slightly larger for headers */
   }
 }
+
+.swiper-pagination-bullet-active{
+background-color: red !important;
+}
