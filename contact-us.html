@@ -303,7 +303,7 @@
                                 <p>Your email address will not be published. Required fields are marked *</p>
                             </div>
                             <div class="comment-form mt-30">
-                                <form id="contactForm">
+                                <form id="contactform">
                                     <div class="row justify-content-center">
                                         <div class="col-sm-12 col-md-6">
                                             <div class="form-group mb-20">
@@ -363,7 +363,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-md-12 col-lg-12">
-                                            <button class="btn full-width" type="submit">
+                                            <button class="custom-btn full-width" type="submit">
                                                 Send A Message
                                             </button>
                                             <div id="msgSubmit"></div>
@@ -610,6 +610,29 @@
         </div>
         <!-- .end scroll-top -->
 
+
+        <!-- emailWorkingProgress -->
+<script src="./assets/js/email.js"></script>
+        <script>
+            document.getElementById("contactform").addEventListener("submit", function(event) {
+              event.preventDefault(); // Prevent form reload
+              sendEmail();
+          });
+          </script>
+          
+          <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+          </script>
+          <script type="text/javascript">
+              (function(){
+                 emailjs.init({
+                   publicKey: "EgQR_zk4LkNxkYPIL",
+                 });
+              })();
+           </script>
+           
+           <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
         <!-- essential js -->
         <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script><script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -643,7 +666,7 @@
         <!-- form validator js  -->
         <script src="assets/js/form-validator.min.js"></script>
         <!-- contact form js -->
-        <script src="assets/js/contact-form-script.js"></script>
+        <!-- <script src="assets/js/contact-form-script.js"></script> -->
         <!-- meanmenu js -->
         <script src="assets/js/jquery.meanmenu.min.js"></script>
         <!-- main js -->
