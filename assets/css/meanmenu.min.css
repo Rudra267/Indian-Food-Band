@@ -147,7 +147,7 @@ a.meanmenu-reveal {
     display: none;
 }
 .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #FF2D55;
+    color: #faad1e !important;
 }
 .main-nav {
     background: #000;
