@@ -690,14 +690,14 @@ button:focus, button:active {
 }
 
 .color-main {
-  color: #E7272D !important;
+  color: #ee6300 !important;
 }
 
 .btn {
   padding: 15px 27px;
   text-align: center;
   border-radius: 30px;
-  background: #E7272D;
+  background: #ee6300;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -760,7 +760,7 @@ button:focus, button:active {
 }
 
 .btn.btn-yellow:hover {
-  background: #E7272D;
+  background: #ee6300;
   color: #fff;
 }
 
@@ -806,7 +806,7 @@ button:focus, button:active {
 }
 
 .bg-main {
-  background-color: #E7272D;
+  background:  linear-gradient(87deg, rgb(229, 149, 0) 7%, rgba(249,175,0,1) 32%, rgba(238,99,0,1) 100%);;
 }
 
 .bg-yellow {
@@ -1130,7 +1130,7 @@ button:focus, button:active {
 }
 
 .section-title small {
-  color: #FFCC00;
+  color: #ee6300;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -2118,11 +2118,11 @@ textarea.form-control {
 }
 
 .navbar-dark .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #E7272D;
+  color: #ee6300;
 }
 
 .navbar-dark .main-nav nav .navbar-nav .nav-item a.active {
-  color: #E7272D;
+  color: #f4b700;
 }
 
 .navbar-dark .navbar-option-item a {
@@ -2189,7 +2189,6 @@ textarea.form-control {
 }
 
 .navbar-option-item a.btn {
-  background-color: #E7272D;
   color: #fff;
 }
 
@@ -2968,7 +2967,7 @@ textarea.form-control {
 .header-carousel.owl-theme .owl-dots .owl-dot span {
   width: 20px;
   height: 7px;
-  background: #E7272D;
+  background: #f4b700;
   border-radius: 10px;
   margin: 0;
   margin-left: 5px;
@@ -5629,7 +5628,7 @@ textarea.form-control {
 .receipe-content {
   cursor: pointer;
 padding: 15px 20px !important;
-  background-color: #ffffff31;
+background-color: #a87b2731;
   box-shadow: rgba(100, 100, 111, 0.304) 0px 7px 29px 0px;
 
   -webkit-box-flex: 1;
@@ -9039,7 +9038,7 @@ padding: 15px 20px !important;
 .scroll-top {
   width: 60px;
   height: 60px;
-  background: #E7272D;
+  background: #f4b700;
   border-radius: 50%;
   position: fixed;
   bottom: 60px;
