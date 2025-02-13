@@ -5727,9 +5727,10 @@ background: linear-gradient(180deg, rgba(249,175,0,0.9694193351168593) 32%, rgba
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  /* border: 1px solid red dashed; */
+  border: 3px solid #fff;
 }
 .recipe-img img{
+
   border-radius: 50px;
   width: 100%;
   height: 100%;
