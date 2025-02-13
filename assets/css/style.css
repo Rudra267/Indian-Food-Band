@@ -1130,7 +1130,7 @@ button:focus, button:active {
 }
 
 .section-title small {
-  color: #ffab6e;
+  color: #000;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -3674,7 +3674,7 @@ textarea.form-control {
   border: 1px solid #333;
   border-radius: 50%;
   padding: 7px 13px;
-  color: #FFCC00;
+  color: #ffffff;
   position: absolute;
   top: .2% !important;
   transform: translateY(-.2%);
@@ -5579,11 +5579,11 @@ textarea.form-control {
 }
 
 .receipe-item-black .receipe-info h4 {
-  color: #ff7b00;
+  color: #e8e8e8;
 }
 
 .receipe-item-black .receipe-info h4 del {
-  color: #D1D1D1;
+  color: #ffffff;
 }
 
 .receipe-image {
@@ -5628,7 +5628,7 @@ textarea.form-control {
 .receipe-content {
   cursor: pointer;
 padding: 15px 20px !important;
-background-color: #a87b2731;
+background-color: transparent;
   box-shadow: rgba(100, 100, 111, 0.304) 0px 7px 29px 0px;
 
   -webkit-box-flex: 1;
