@@ -690,7 +690,7 @@ button:focus, button:active {
 }
 
 .color-main {
-  color: #ee6300 !important;
+  color: #f4b700 !important;
 }
 
 .btn {
@@ -1130,7 +1130,7 @@ button:focus, button:active {
 }
 
 .section-title small {
-  color: #000;
+  color: #FFCC00;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -1140,7 +1140,7 @@ button:focus, button:active {
 }
 
 .section-title h2 {
-  color: #222222;
+  color: #fff;
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -3575,7 +3575,7 @@ textarea.form-control {
 }
 
 .menu-main-thumb-item.menu-main-thumb-item-two .menu-main-thumb-inner p {
-  color: #222222;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -3674,7 +3674,7 @@ textarea.form-control {
   border: 1px solid #333;
   border-radius: 50%;
   padding: 7px 13px;
-  color: #ffffff;
+  color: #f4b700;
   position: absolute;
   top: .2% !important;
   transform: translateY(-.2%);
@@ -5628,7 +5628,7 @@ textarea.form-control {
 .receipe-content {
   cursor: pointer;
 padding: 15px 20px !important;
-background-color: transparent;
+background: linear-gradient(180deg, rgba(249,175,0,0.9694193351168593) 32%, rgba(238,99,0,0.7957498673297444) 100%);;
   box-shadow: rgba(100, 100, 111, 0.304) 0px 7px 29px 0px;
 
   -webkit-box-flex: 1;
