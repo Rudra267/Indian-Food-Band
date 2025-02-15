@@ -1797,6 +1797,7 @@ textarea.form-control {
 }
 
 .topbar {
+  display: none !important;
   padding: 10px 0;
   position: relative;
   z-index: 10000;
